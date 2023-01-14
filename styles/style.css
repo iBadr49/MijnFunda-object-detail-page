@@ -1,0 +1,27 @@
+
+body {
+    font-family: proxima nova;
+    margin: 0;
+}
+.firstP {
+    margin: 0;
+}
+
+.fundaLogo{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+}
+
+.header{ 
+    background-color: #F7A100;
+    width: 375px;
+    height: 52px;    
+}
+
+.menu_icon { 
+    marker:none;
+    height: 10px;
+    
+}

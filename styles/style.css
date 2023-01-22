@@ -4,21 +4,17 @@ body {
 }
 
 .logo {
-  position: absolute;
   float: left;
   margin: -8px;
   left: -16px;
 }
 
 nav {
-  position: absolute;
-  width: 375px;
   height: 52px;
   background-color: #f7a100;
 }
 
 nav ul {
-  position: relative;
   float: right;
 }
 
@@ -32,6 +28,12 @@ ul li a {
   padding: 10px;
   color: white;
 }
+
+.house_image{
+    width: 100%;
+}
+
+
 
 /*----------- Block 1.1 --------------*/
 

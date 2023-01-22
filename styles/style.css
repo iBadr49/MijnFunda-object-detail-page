@@ -10,6 +10,7 @@ body {
     --Orange: #f7a100;
     --white: white ;
     --black: black;
+    --gray: gray;
 
 }
 
@@ -42,17 +43,10 @@ ul li a {
     width: 100%;
 }
 
-#kaart{
-    margin: 10px;
+.postcode{
+    margin-top: -20px;
+    color: var(--gray);
 }
-
-.block1 {
-    display: flex;
-    gap: 50px;
-  }
-
-
-
 
 
 /*----------- Block 1.1 --------------*/
@@ -125,3 +119,35 @@ label {
   background-color: var(--white);
   overflow: hidden;
 }
+
+.ul2 li{
+    margin: 1em;
+    list-style-type: none;
+    display: flex;
+}
+
+/*------------------ Activiteit FlexBox ---------------*/
+.flexbox-activiteit{
+    /*Center dit !!!!!!!!!!!!! HOE*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+/*------------------ In De BUURT ----------------------------------*/
+
+.buurt{
+    /* border-style: solid; */
+    border-color: var(--Bleu);
+    padding: 10px;
+    border: 1px solid var(--white); 
+    box-shadow: 1px 1px 5px var(--gray);
+}
+
+.indebuurt{
+    margin-left: 2%;
+    color: var(--Bleu);
+    font-weight: 600;
+}
+

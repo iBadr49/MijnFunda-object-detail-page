@@ -36,12 +36,22 @@ ul li {
 ul li a {
   text-decoration: none;
   padding: 10px;
-  color: white;
 }
 
 .house_image{
     width: 100%;
 }
+
+#kaart{
+    margin: 10px;
+}
+
+.block1 {
+    display: flex;
+    gap: 50px;
+  }
+
+
 
 
 
@@ -53,7 +63,7 @@ li.block1-1 {
 
 /* -------- (Omschrijving) ----------*/
 
-.container {
+main {
   margin: 10px;
 }
 

@@ -40,14 +40,61 @@ ul li a {
 }
 
 .house_image{
-    width: 100%;
+width: 100%;
 }
 
+/*---------------- Wrapper --------------------------*/
+.wrapper{
+    height: 100%;
+    border: 1px solid #f7a100;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 100%;
+    /* line-height: 110px; */
+    margin: 5px;
+}
+
+
+/*-------------------------------------------------*/
 .postcode{
     margin-top: -20px;
     color: var(--gray);
 }
 
+/* imageIcon */
+
+.imageIcon li{
+    color: var(--Bleu);
+    margin: 0 10px 0 10px;
+}
+
+.imageIcon{
+    font-size: large;
+}
+
+.imageIcons{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.imageIcons li{
+    display: flex;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
 
 /*----------- Block 1.1 --------------*/
 

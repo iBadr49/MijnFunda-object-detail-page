@@ -46,7 +46,6 @@ width: 100%;
 /*---------------- Wrapper --------------------------*/
 .wrapper{
     height: 100%;
-    border: 1px solid #f7a100;
     display: flex;
     overflow-x: auto;
 }
@@ -56,7 +55,7 @@ width: 100%;
 }
 
 .wrapper .item{
-    min-width: 100%;
+    min-width: 90%;
     /* line-height: 110px; */
     margin: 5px;
 }

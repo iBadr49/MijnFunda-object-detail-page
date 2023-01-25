@@ -17,3 +17,12 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+// ---------------- Swiper Js 
+
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+

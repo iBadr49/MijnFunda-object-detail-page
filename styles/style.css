@@ -1,18 +1,24 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Proxima nova", sans-serif;
 }
 
-:root{
-    --Bleu: #0071b3;
-    --Orange: #f7a100;
-    --white: white ;
-    --black: black;
-    --gray: gray;
-
+:root {
+  --Bleu: #0071b3;
+  --Orange: #f7a100;
+  --white: white;
+  --black: black;
+  --gray: gray;
 }
+
+/* -------------- Desktop Versies !!!!!!---------------- */
+
+.nav-desktop {
+  display: none;
+}
+
+/* ---------------------------------------------------- */
 
 .logo {
   float: left;
@@ -39,60 +45,59 @@ ul li a {
   padding: 10px;
 }
 
-.house_image{
-width: 100%;
+.house_image {
+  width: 100%;
 }
 
 /*---------------- Wrapper --------------------------*/
-.wrapper{
-    height: 100%;
-    display: flex;
-    overflow-x: auto;
+.wrapper {
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
 }
 
-.wrapper::-webkit-scrollbar{
-    width: 0;
+.wrapper::-webkit-scrollbar {
+  width: 0;
 }
 
-.wrapper .item{
-    min-width: 90%;
-    /* line-height: 110px; */
-    margin: 5px;
+.wrapper .item {
+  min-width: 90%;
+  /* line-height: 110px; */
+  margin: 5px;
 }
-
 
 /*-------------------------------------------------*/
-.postcode{
-    margin-top: -20px;
-    color: var(--gray);
+.postcode {
+  margin-top: -20px;
+  color: var(--gray);
 }
 
 /* imageIcon */
 
-.imageIcon li{
-    color: var(--Bleu);
-    margin: 0 10px 0 10px;
+.imageIcon li {
+  color: var(--Bleu);
+  margin: 0 10px 0 10px;
 }
 
-.imageIcon{
-    font-size: large;
+.imageIcon {
+  font-size: large;
 }
 
-.imageIcons{
-    display: flex;
-    justify-content: center;
-    padding: 0;
+.imageIcons {
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 
-.imageIcons li{
-    display: flex;
+.imageIcons li {
+  display: flex;
 }
 
-.icon-text{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 5px;
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
 }
 
 /*----------- Block 1.1 --------------*/
@@ -147,7 +152,7 @@ label {
   padding: 18px;
   width: 100%;
   margin-top: 2px;
-  border:none;
+  border: none;
   text-align: left;
   outline: none;
   font-size: 16px;
@@ -166,34 +171,77 @@ label {
   overflow: hidden;
 }
 
-.ul2 li{
-    margin: 1em;
-    list-style-type: none;
-    display: flex;
+.ul2 li {
+  margin: 1em;
+  list-style-type: none;
+  display: flex;
 }
 
 /*------------------ Activiteit FlexBox ---------------*/
-.flexbox-activiteit{
-    /*Center dit !!!!!!!!!!!!! HOE*/
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-evenly;
+.flexbox-activiteit {
+  /*Center dit !!!!!!!!!!!!! HOE*/
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.flexbox-activiteit, a{
+    outline: none;
+    text-decoration: none;
+    color: var(--Bleu);
+}
+
+#d{
+    background-color: rgb(255, 255, 0);
 }
 
 /*------------------ In De BUURT ----------------------------------*/
 
-.buurt{
-    /* border-style: solid; */
-    border-color: var(--Bleu);
-    padding: 10px;
-    border: 1px solid var(--white); 
-    box-shadow: 1px 1px 5px var(--gray);
+.buurt {
+  /* border-style: solid; */
+  border-color: var(--Bleu);
+  padding: 10px;
+  border: 1px solid var(--white);
+  box-shadow: 1px 1px 5px var(--gray);
 }
 
-.indebuurt{
-    margin-left: 2%;
-    color: var(--Bleu);
-    font-weight: 600;
+.indebuurt {
+  margin-left: 2%;
+  color: var(--Bleu);
+  font-weight: 600;
 }
 
+/*---------------------- MediaQuery -----------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+  
+  nav {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+
+  #menuBurger{
+    margin-right: 5px;
+  }
+
+  main, section{
+    margin: auto;
+    width: 768px;
+    padding: 50px;
+  }
+
+
+  #flexUl{
+    display: flex;
+    align-items: center;
+  }
+
+  #mijnHuis, #menuBurger{
+    align-self: center;
+    margin-right: 1.5em;
+  } 
+}

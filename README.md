@@ -24,19 +24,9 @@ Het object/product __"Funda"__ pagina herbouwen.
 
 📸 - __Desktop Versie__
 
-<img src="https://user-images.githubusercontent.com/112857932/214678888-23ba073f-3e28-43ef-b74d-8d8f4b6b3940.png" width="100%">
-
-***
-
 <img src="https://user-images.githubusercontent.com/112857932/214679027-7ea029ea-d00a-44b2-aeb7-e1e267aa88c5.png" width="100%">
 
-***
-
-<img src="https://user-images.githubusercontent.com/112857932/214679108-58156302-52c9-4b03-b832-68986b81bf2c.png" width="100%"> <br>
-
 🌐 - __Mijn Funda Versie "link"__ - https://ibadr49.github.io/MijnFunda-object-detail-page/
-
-
 
 
 ## Kenmerken

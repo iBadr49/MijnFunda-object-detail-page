@@ -32,11 +32,26 @@ Het object/product __"Funda"__ pagina herbouwen.
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
-Dit product pagina is gemaakt met: <br>
+Zie hieronder stukje code hoe ik een __Accordion__ met JavaScript heb gebruikt.
 
-Html <br>
-Css <br>
-Js <br>
+```Js
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+```
+
+
 
 ## Bronnen
 

@@ -9,6 +9,7 @@
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
+  * [Checklist](#check)
   * [Licentie](#licentie)
   
 ## Opdracht
@@ -51,7 +52,12 @@ for (i = 0; i < acc.length; i++) {
 }
 ```
 
-
+## Checklist
+✔️ Accordion <br>
+✔️ Images slider (carousel) <br>
+✔️ responsiveness <br>
+✖️ Animaties <br>
+ 
 
 ## Bronnen
 

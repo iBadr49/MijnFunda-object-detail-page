@@ -9,26 +9,13 @@
 Ik heb voor mijn opdrachtgever bij Funda een objectdetailpagina ontwikkeld, met de primaire focus op de mobiele gebruikerservaring.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Dit zijn de tools en talen die zijn gebruikt om deze pagina te creëren.
 
-Zie hieronder stukje code hoe ik een __Accordion__ met JavaScript heb gemaakt.
+<div>
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,github"><br>
+    <img src="https://skillicons.dev/icons?i=vscode">
+</div>
 
-```Js
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-```
 ## Bronnen
 
 Funda (Voorbeeld) - https://www.funda.nl/koop/oss/huis-42059908-zwingelstraat-25/ <br>
